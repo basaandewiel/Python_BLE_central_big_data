@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Notifications
--------------
-Example showing how to add notifications to a characteristic and handle the responses.
-Updated on 2019-07-03 by hbldh <henrik.blidh@gmail.com>
-"""
 
 import sys
 import asyncio
@@ -19,7 +13,7 @@ CHARACTERISTIC_UUID = "00002a37-0000-1000-8000-00805f9b34fb"
 
 
 ADDRESS = (
-# address of Arduino nano 33 ble
+# address of Arduino nano 33 ble running BLE_peripheral
     "EA:D0:C7:96:E2:17"
     if platform.system() != "Darwin"
     else "B9EA5233-37EF-4DD6-87A8-2A875E821C46"
