@@ -11,7 +11,8 @@ This application can be used together with
     Zephyr_BT_periph_big_data
     
 ## Requirements
-bleak installed
+This script uses ```bleak``` a GATT client software, capable of connecting to BLE devices acting as GATT servers
+
 source: https://github.com/hbldh/bleak
 
 `pip install bleak`
