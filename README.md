@@ -1,4 +1,4 @@
-# Python_BT_central_big_data
+# Python_BLE_central_big_data
 
 Bluetooth peripheral (server side) - Python version
 
@@ -8,7 +8,7 @@ The central part is both available as a Python script (this repo) as as a C prog
 
 This application can be used together with
 
-    Zephyr_BT_periph_big_data
+    Zephyr_BLE_periph_big_data
     
 ## Requirements
 This script uses ```bleak``` a GATT client software, capable of connecting to BLE devices acting as GATT servers
